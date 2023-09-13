@@ -1,0 +1,153 @@
+/* All */
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+.header,
+.footer {
+  background-color: #1f2937;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* Buttons */
+.hero-button {
+  background-color: #3882f6;
+  border: #f9faf8;
+  border-width: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.action-button-container {
+  background-color: white;
+  color: #3882f6;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* Hero */
+.hero-button-container {
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 250px;
+  background-color: #1f2937;
+}
+.hero-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.hero-sub,
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* Just Added */
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  height: 250px;
+  justify-content: space-between;
+}
+.random-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+/* Quote */
+.flex-container-3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+}
+
+/* Call To Action Section */
+.flex-container-4 {
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 900px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+.action {
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.action-text {
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+/* Footer */
+.footer {
+  color: #f9faf8;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Misc below this line */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
